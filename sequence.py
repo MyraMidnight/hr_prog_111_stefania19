@@ -5,9 +5,10 @@ counter = 0
 
 while counter < n :
   #placeholder for the printed number
-  x = 1
+  x = 0
+  x_range = []
   #run through the range and add the numbers: 0 + 1 + 2 ... and then print the final number
   for i in range(counter) :
-    x += i 
+    x += range(counter)[-1]
   print(x, end=", ")
   counter += 1
