@@ -8,12 +8,11 @@ while counter <= n :
   x = 0
   if n > 3 :
     #if the number is larger than 3, it shall create the larger numbers
-    
     for i in range(counter) :
+      #add together the last three numbers in collection
       x = collection[-1] + collection[-2] + collection[-3]
       #push the new sum to the collection
       collection.append(x)
-  new_collection = collection[0:n]
   counter += 1
 
 for i in range(n) :
