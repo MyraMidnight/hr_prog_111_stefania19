@@ -17,4 +17,4 @@ while counter <= n :
   counter += 1
 
 for i in range(n) :
-  print(collection[i], end=", ")
+  print(collection[i])
